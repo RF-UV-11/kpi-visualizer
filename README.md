@@ -29,40 +29,71 @@ This project is a KPI (Key Performance Indicator) visualizer using Python, Plotl
 1. **Prepare Your Excel File:**
    Ensure your Excel file (`kpi_data_dashboard.xlsx`) is formatted as follows:
 
-   - **Tasks Sheet:**
-     | Task  | value | target |
-     |-------|-------|--------|
-     | Task1 | 30    | 50     |
-     | Task2 | 40    | 50     |
-     | Task3 | 30    | 50     |
+   ### Tasks Sheet
+   | Column  | Description         |
+   |---------|---------------------|
+   | Task    | Name of the task    |
+   | value   | Current task value  |
+   | target  | Target task value   |
 
-   - **Learning Sheet:**
-     | Course  | Hours |
-     |---------|-------|
-     | Course1 | 50    |
-     | Course2 | 30    |
-     | Course3 | 20    |
+   Example:
+   | Task  | value | target |
+   |-------|-------|--------|
+   | Task1 | 30    | 50     |
+   | Task2 | 40    | 50     |
+   | Task3 | 30    | 50     |
 
-   - **Self-Improvement Sheet:**
-     | Activity    | Hours |
-     |-------------|-------|
-     | Activity1   | 10    |
-     | Activity2   | 15    |
-     | Activity3   | 25    |
+   ### Learning Sheet
+   | Column  | Description                |
+   |---------|----------------------------|
+   | Course  | Name of the course         |
+   | Hours   | Hours spent on the course  |
 
-   - **Public Posts Sheet:**
-     | Month_Year | Posts |
-     |------------|-------|
-     | Jan-2024   | 5     |
-     | Feb-2024   | 3     |
-     | Mar-2024   | 8     |
+   Example:
+   | Course  | Hours |
+   |---------|-------|
+   | Course1 | 50    |
+   | Course2 | 30    |
+   | Course3 | 20    |
 
-   - **Enjoyment Sheet:**
-     | Event  | Count |
-     |--------|-------|
-     | Event1 | 3     |
-     | Event2 | 5     |
-     | Event3 | 2     |
+   ### Self-Improvement Sheet
+   | Column    | Description                          |
+   |-----------|--------------------------------------|
+   | Activity  | Name of the self-improvement activity |
+   | Hours     | Hours spent on the activity           |
+
+   Example:
+   | Activity    | Hours |
+   |-------------|-------|
+   | Activity1   | 10    |
+   | Activity2   | 15    |
+   | Activity3   | 25    |
+
+   ### Public Posts Sheet
+   | Column     | Description                     |
+   |------------|---------------------------------|
+   | Month_Year | Month and year of the posts     |
+   | Posts      | Number of public posts in month |
+
+   Example:
+   | Month_Year | Posts |
+   |------------|-------|
+   | Jan-2024   | 5     |
+   | Feb-2024   | 3     |
+   | Mar-2024   | 8     |
+
+   ### Enjoyment Sheet
+   | Column  | Description                |
+   |---------|----------------------------|
+   | Event   | Name of the enjoyable event |
+   | Count   | Number of times enjoyed     |
+
+   Example:
+   | Event  | Count |
+   |--------|-------|
+   | Event1 | 3     |
+   | Event2 | 5     |
+   | Event3 | 2     |
 
 2. **Run the Script:**
    Execute the Python script to generate and display the dashboard.
